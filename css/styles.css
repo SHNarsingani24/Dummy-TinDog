@@ -1,0 +1,166 @@
+    /* Call to action */
+#cta{
+    background-color:  #ff4c68;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 5% 13%;
+}
+
+h3{
+    font-size: 175%;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4%;
+}
+
+   /* Download Buttons */
+.btn{
+    margin-top: 10px; 
+}
+
+.btn-dark{
+    margin-right: 10px;
+} 
+
+   /* features */
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-logo{
+    color: #ef8172;
+    font-size: 2.5rem;
+    padding-bottom: 3%;
+}
+
+.feature-logo:hover{
+    color: #ff4c68;
+}
+
+.feature{
+    text-align: center;
+}
+
+.feature h3{
+    font-weight: bolder;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+   /* footer */
+#footer{
+    background-color: #fff;
+    text-align: center;
+}
+
+.footer-logo{
+    margin: 2% 0.75% 1%;
+}
+
+   /* Navigation Bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.navbar-nav{
+    padding-left: 370px;
+}
+
+   /* Pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+   /* Title */
+#title{
+    background-color: #ff4c68;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    size: 3rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.container{
+    padding: 3% 15% 8%;
+}
+
+.title-logo{
+    margin-right: 6px;
+}
+
+.title-img{
+    margin-left: 30%;
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+}
+
+   /* Testimonials */
+#testimonials{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-img{
+    border-radius: 100%;
+    margin: 20px;
+    width: 15%;
+}
+
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+@media (max-width: 1028px) {
+    h1{
+        text-align: center;
+         
+    }
+
+    .title-img{
+        margin-top: 20px;
+        position: static;
+        margin-left: 57px;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
+
